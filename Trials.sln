@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit.Worker", "src\O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cli", "src\OneEndpoint\cli\cli.csproj", "{E1B6AF40-6734-4E06-8D4B-D5A678B7CF34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{1ACFB04E-ECFB-4004-844F-9985CB1CC947}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +56,10 @@ Global
 		{E1B6AF40-6734-4E06-8D4B-D5A678B7CF34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1B6AF40-6734-4E06-8D4B-D5A678B7CF34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1B6AF40-6734-4E06-8D4B-D5A678B7CF34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ACFB04E-ECFB-4004-844F-9985CB1CC947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ACFB04E-ECFB-4004-844F-9985CB1CC947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ACFB04E-ECFB-4004-844F-9985CB1CC947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ACFB04E-ECFB-4004-844F-9985CB1CC947}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{113580EF-B7C4-4D17-A768-BA02520EDE8C} = {436EF3AC-2818-4BD7-A154-CAADDDF899E2}
